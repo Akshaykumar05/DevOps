@@ -3,7 +3,7 @@
 ## What you can learn about
 * Linux
 * Networking
-* Python
+* Python/Bash
 * Docker
 * Kubernetes
 * CI/CD
