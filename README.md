@@ -6,3 +6,4 @@
 * Python
 * Docker
 * Kubernetes
+* CI/CD
