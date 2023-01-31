@@ -27,3 +27,9 @@ Version control is the ability to understand the various changes that happened t
 * Make sure it’s fully viewable and auditable
 
 You might ask why Git? Git is a de facto standard. Git is the most broadly adopted tool of its kind. Vast numbers of developers already have Git experience and a significant proportion of college graduates may have experience with Git.
+
+## Resource
+
+| Resource                                                            | Notes                                                                                       |
+| :------------------------------------------------------------------ | :----------------------------------------------------------------------------------------- |
+| [Kunal Kushwaha - Complete Git and GitHub Tutorial](https://youtu.be/apGV9Kg7ics)|  This tutorial will help you with using Git & GitHub for your personal projects.
