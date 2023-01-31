@@ -15,3 +15,15 @@ The development team that develops the plan, designs and builds the system from 
 * Docker
 * Kubernetes
 * CI/CD
+
+## Version Control System
+So when you work in teams, most likely there will be some kind of version control system. It could be github, bit-bucket or gitlab. So they all work with git, which is why you need to have an understanding of it. With my personal experience, I had to learn how branching worked, how you create a pull request and what kind of git workflow the team followed. So understanding the basics of git is necessary.
+
+### What is a Version Control System?
+Version control is the ability to understand the various changes that happened to the code over time (and possibly roll back). All these are enabled by using a version control system such as Git. A Git repository can live on one’s machine, but it usually lives on a central online or on-prem repository. Benefits are:
+
+* Collaborate with other developers
+* Make sure the code is backed-up somewhere
+* Make sure it’s fully viewable and auditable
+
+You might ask why Git? Git is a de facto standard. Git is the most broadly adopted tool of its kind. Vast numbers of developers already have Git experience and a significant proportion of college graduates may have experience with Git.
