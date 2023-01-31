@@ -1,5 +1,7 @@
 # DevOps 
 
+![DevOps](../assets/DevOps.webp)
+
 ## What you can learn about
 * Linux
 * Networking
