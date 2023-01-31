@@ -33,3 +33,4 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 | Resource                                                            | Notes                                                                                       |
 | :------------------------------------------------------------------ | :----------------------------------------------------------------------------------------- |
 | [Kunal Kushwaha - Complete Git and GitHub Tutorial](https://youtu.be/apGV9Kg7ics)|  This tutorial will help you with using Git & GitHub for your personal projects.
+| [Apoorv Goyal - Git and GitHub Materclass](https://youtu.be/LQ2LTPHeTts)| This  tutorial will focuses on Introduction to Git for  absolute beginners with no prior coding experience.
