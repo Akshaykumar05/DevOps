@@ -9,7 +9,7 @@ The development team that develops the plan, designs and builds the system from 
 ## To become a DevOps Engineer, you need to know about:
 * Linux
 * Networking
-* Git and GitHub
+* Version Control System
 * Cloud Service: AWS/Azure/GCP
 * Python/Bash
 * Docker
