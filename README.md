@@ -4,6 +4,7 @@
 * Linux
 * Networking
 * Git and GitHub
+* Cloud Service: AWS/Azure/GCP
 * Python/Bash
 * Docker
 * Kubernetes
