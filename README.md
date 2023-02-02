@@ -16,6 +16,8 @@ The development team that develops the plan, designs and builds the system from 
 * Kubernetes
 * CI/CD
 
+## Linux
+
 ## Networking
 
 ## Version Control System
