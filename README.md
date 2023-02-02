@@ -16,6 +16,8 @@ The development team that develops the plan, designs and builds the system from 
 * Kubernetes
 * CI/CD
 
+## Networking
+
 ## Version Control System
 So when you work in teams, most likely there will be some kind of version control system. It could be github, bit-bucket or gitlab. So they all work with git, which is why you need to have an understanding of it. With my personal experience, I had to learn how branching worked, how you create a pull request and what kind of git workflow the team followed. So understanding the basics of git is necessary.
 
