@@ -44,3 +44,11 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
 * All top cloud providers support Kubernetes.
 
+### History of K8s
+* Google developed an internal system called 'borg' (later named Omega) to deploy and manage thousands google applications and their services on cluster.
+* In 2014, Google introduced Kubernetes an Open source Plateform written in 'Golang'  and later donated to CNCF.
+
+### Online Plateform for K8s
+* Kubernetes playground
+* Play with K8s
+* Play with Kubernetes Classroom
