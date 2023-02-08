@@ -77,3 +77,13 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Rollback (going back to previous version)
 * Health Monitoring of Containers.
 * Batch Execution (one time sequential, Parallel)
+
+| Features                                   |Kubernetes                                             | Docker Swarm                                                                                       
+| :------------------------------------------| :-----------------------------------------------------| :--------------------------------------------------------- |
+| Installation and Cluster Configuration | Complicated and time consuming | Fast and Easy
+| Supports | K8s can work with almost all container types like Rocket, Docker, Container | 
+| GUI | GUI Available | GUI not available
+| Data Volumes | Only shared with Containers in same Pod | can be shared with any other container
+| Updates and Rollback | Process scheduling to maintain services while updating | Progressive updates and service health monitoring throughout the update
+| Autoscaling | Support vertical and horizontal Autoscaling | Not support Autoscaling
+| Logging and Monitoring | Inbuild tool present for monitoring | used 3rd party tools like splunk
