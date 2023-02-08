@@ -38,3 +38,9 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 | :------------------------------------------------------------------ | :----------------------------------------------------------------------------------------- |
 | [Kunal Kushwaha - Complete Git and GitHub Tutorial](https://youtu.be/apGV9Kg7ics)|  This tutorial will help you with using Git & GitHub for your personal projects.
 | [Apoorv Goyal - Git and GitHub Materclass](https://youtu.be/LQ2LTPHeTts)| This  tutorial will focuses on Introduction to Git for  absolute beginners with no prior coding experience.
+
+## Kubernetes
+* Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
+* It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
+* All top cloud providers support Kubernetes.
+
