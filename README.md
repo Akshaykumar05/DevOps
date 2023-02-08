@@ -52,3 +52,28 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Kubernetes playground
 * Play with K8s
 * Play with Kubernetes Classroom
+
+### Cloud Based K8s Services
+* GKE- Google Kubernetes Services
+* AKS- Azure Kubernetes Services
+* Amazon EKS- Elastic Kubernetes Services
+
+### Kubernetes Instalation Tool
+* Minicube
+* Kubeadm
+
+### Problems with Scaling up the Containers
+* Containers can not communicate with each other.
+* Autoscaling and Load Balancing was not possible.
+* Containers had to be managed carefully.
+
+### Features of K8s
+* Orchestration (Clustering of any no of containers running on different network)
+* Autoscaling (Vertical & Horizontal)
+* Auto-Healing
+* Load Balancing
+* Plateform Independent (Cloud/Virtual/Physical)
+* Fault Tolerance (Node/PoD failure.
+* Rollback (going back to previous version)
+* Health Monitoring of Containers.
+* Batch Execution (one time sequential, Parallel)
