@@ -121,3 +121,21 @@ Kubernetes cluster contains Containers running or Bare Metal/ VM instances/ Clou
 2. **Secure**- Implements aitomatic TLS with optional Client-Certificate authentication.
 3. **Fast**- Benchmarked at 10,000 writes per second
 
+#### 3 Kube-scheduler (action)
+* When users make request for the creation and management of Pods, Kube-scheduler is going to take action on these request.
+* Handle Pod creation and Management.
+* Kube-scheduler match/assign any node to create and run pods.
+* A scheduler watches for newly created Pods that have no node assigned for every pod that the scheduler discovers, the scheduler becomes responsible for finding best node for that pod to run on.
+* Scheduler gets the information for hardware configuration from configuration files and the Pods on nodes accordingly
+
+#### 4 Controller-Manager
+Make sure actual state of cluster matches to desired state.
+
+Two possible choices of Controller Manager
+1. If K8s on cloud, then it will be Cloud-Controller-Manager.
+2. If k8s on non-cloud, then it will be Kube-Controller-Manager.
+
+#### Components on master that runs Containainer
+1. **Node-Controller**- For checking the cloud provider to determine if a node has been detected in the Cloud after it stops responding.
+2. **Server Controller**- Responsible for load Balancers on your cloud against services of typse Load Balancer.
+3. **Volume Controller**- For creating, attaching and mounting volumes and interacting with the cloud provider to orchestrate volume.
