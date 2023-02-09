@@ -87,3 +87,37 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 | Updates and Rollback | Process scheduling to maintain services while updating | Progressive updates and service health monitoring throughout the update
 | Autoscaling | Support vertical and horizontal Autoscaling | Not support Autoscaling
 | Logging and Monitoring | Inbuild tool present for monitoring | used 3rd party tools like splunk
+
+### Working with K8s:
+* We create manifest (.yml)
+* Apply this to cluster (to master) to bring into desired state.
+* Pod runs on node, which is controlled by master.
+
+### Role of Master Node
+Kubernetes cluster contains Containers running or Bare Metal/ VM instances/ Cloud instances/ all mix.
+* K8s designates one or more of these as master and other as workers.
+* The master is now going to run set of K8s processes. These processes will ensure  smooth functioning of Cluster, these process are called "Control Plane"
+* Can be multi-master for high availability
+* Master runs Control Plane to run cluster smoothly
+
+### Components of Control Plane (Master)
+1. Kube-api-server
+2. etcd
+3. Kube-Scheduler
+4. Controller Manager
+
+#### 1 Kube-api-server
+* The api-server interacts directly with user (i.e. we apply .yml pr json manifest to Kube-api-server)
+* This Kube-api-server is meant to scale automatically as per load.
+* Kube api-server is fron-end of Control-plane.
+
+#### 2 etcd
+* Stores metadata (data of data) and status of cluster.
+* etcd is Consistent and high-available store (key-value store)
+* Source of touch for cluster state (info about state of cluster)
+
+#### etcd has following features:
+1. **Fully Replicated**- The entire state is available on every node in the cluster.
+2. **Secure**- Implements aitomatic TLS with optional Client-Certificate authentication.
+3. **Fast**- Benchmarked at 10,000 writes per second
+
