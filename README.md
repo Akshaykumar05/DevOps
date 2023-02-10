@@ -139,3 +139,25 @@ Two possible choices of Controller Manager
 1. **Node-Controller**- For checking the cloud provider to determine if a node has been detected in the Cloud after it stops responding.
 2. **Server Controller**- Responsible for load Balancers on your cloud against services of typse Load Balancer.
 3. **Volume Controller**- For creating, attaching and mounting volumes and interacting with the cloud provider to orchestrate volume.
+
+#### Nodes (Kubelet and Container Engine)
+Node is going to run 3 important piece of software/process.
+
+1. **Kubelet**
+* Agent running on the node
+* Listens to Kubernetes master (eg- pod creation request)
+* Use Port 10255
+* Send success/fail reports to master
+
+2. **Container Engine** (Docker)
+* Works with Kubelet.
+* Pulling images.
+* Start/stop Containers.
+* Exposing containers on ports specified in manifest.
+
+3. **Kube-proxy**
+* Assign IP to each Pod.
+* It is required to assign IP address to pods (dynamic)
+* Kube-proxy runs on each node and this make sure that each pod will get its own unique IP address.
+
+These 3 coponents collectively consist "node"
