@@ -165,3 +165,7 @@ These 3 coponents collectively consist "node"
 ### POD
 * Smallest unit in Kubernetes
 * Pod is a group one or more containers that are deployed together on the same host. 
+* A cluster is a group of nodes.
+* A cluster has atleast one worker node and master node.
+* In Kubernetes, the control unit is the POD, not containers.
+* Consist of one or more tightly coupled containers
