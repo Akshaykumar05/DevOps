@@ -161,3 +161,7 @@ Node is going to run 3 important piece of software/process.
 * Kube-proxy runs on each node and this make sure that each pod will get its own unique IP address.
 
 These 3 coponents collectively consist "node"
+
+### POD
+* Smallest unit in Kubernetes
+* Pod is a group one or more containers that are deployed together on the same host. 
