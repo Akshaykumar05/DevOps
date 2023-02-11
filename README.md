@@ -173,3 +173,25 @@ These 3 coponents collectively consist "node"
 * Kubernetes only knows about PODs ( does not know about individual container)
 * Can not start containers without a POD.
 * One POD usually contains one container.
+
+#### Multi-Container PODS
+* Share access to memory space.
+* Connect to each other using localhost (Container port)
+* Share access to the same volume.
+* Containers within pod are deployed in an all-or-nothing manner.
+* Entire pod is hosted on the same node (Scheduler will decide about which node)
+
+#### POD Limitations
+* No auto-healing or auto scaling.
+* Pod crashes
+
+#### Higher level K8s Objects
+* Replication set- auto scaling and auto healing
+* Deployment- Versioning and Rollback
+* Service- Static (Non-epheneral) IP and Networking
+* Volume- Non-epheneral storage 
+
+#### Important
+* Kubectl- Single Storage
+* Kubeadm- On premise
+* Kubefed- Federated
