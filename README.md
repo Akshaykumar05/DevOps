@@ -197,3 +197,13 @@ These 3 coponents collectively consist "node"
 * Kubefed- Federated
 
 ## CI/CD
+
+### JENKINS
+* Jenkins is an Open-Source project written in **Java** that runs on windows, MacOS and other Unix-Lite Operating systems. It is free, Community supported and might be your frst choice tool for CI.
+* Jenkins automate the entire Software Development Life Cycle (SDLC)
+* Jenkins was originally developed by Sun Microsystem in 2004 under the name of hudson.
+* The project was later named jenkins when Oracle bought Microsystems.
+* It can run on any major plateform without any compatibility issues.
+* Whenever developer write Code, we integrate all that Code of all developers at that point of time and we build, test and deliever/deploy to the client. This prrocess is called CI/CD
+* Jenkins helps us to achieve this.
+* Because of CI, New bugs will be reported fast and get retified fast. So The entire software development happens fast.
