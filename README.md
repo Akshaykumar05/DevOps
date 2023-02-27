@@ -195,3 +195,5 @@ These 3 coponents collectively consist "node"
 * Kubectl- Single Storage
 * Kubeadm- On premise
 * Kubefed- Federated
+
+## CI/CD
