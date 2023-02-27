@@ -207,3 +207,19 @@ These 3 coponents collectively consist "node"
 * Whenever developer write Code, we integrate all that Code of all developers at that point of time and we build, test and deliever/deploy to the client. This prrocess is called CI/CD
 * Jenkins helps us to achieve this.
 * Because of CI, New bugs will be reported fast and get retified fast. So The entire software development happens fast.
+
+#### Workflow of Jenkins
+* We can attach Git, Maven, Selenium and Artifactory plugins to Jenkins.
+* Once developers puts code in GitHub, Jenkins pull that Code & send to Maven for build.
+* once build is done, then jenkins pull that Code and send to Selenium for testing.
+* Once testing is done, then Jenkins will pull that code and send to artifactory as per requirement and so on.
+* We can deploy with Jenkins.
+
+#### Advantages of Jenkins
+* It has lots of plug-ins available.
+* You can write your own plug-ins.
+* You can use Community Plug-ins.
+* Jenkins is not just a tool. It is a framework. i.e. you can do whatever you want all you need is plug-ins.
+* We can attach slaves (nodes) to jenkins master. It instruct others (slaves) to do job. If slaves are not available, jenkins itself  does the job.
+* Jenkins also bahave as Crone Server Replacement. i.e. Can do scheduled task.
+* It can create labels. 
