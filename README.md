@@ -18,7 +18,7 @@ The development team that develops the plan, designs and builds the system from 
 
 ## Linux
 ### Some Important Commands:
-* whoami- To check current user
+* whoami - To check current user
 * touchfile_name.txt - create file
 * pwd - to check current workng directory
 * mkdir foldername - to create a directory (folder)
@@ -28,6 +28,7 @@ The development team that develops the plan, designs and builds the system from 
 * mv src_path destination_path
 * cat filename - to view contents of file.
 * clear - to clear terminal.
+* echo "your text" - to print something.
 
 ## Networking
 
