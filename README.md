@@ -29,6 +29,12 @@ The development team that develops the plan, designs and builds the system from 
 * cat filename - to view contents of file.
 * clear - to clear terminal.
 * echo "your text" - to print something.
+* ls -la -list contents of directory with file details.
+* nano file_name -to write something in a file 
+(To exit nano: ctrl+ × > press y if want to save or press n for no > press enter)
+* history -to see all your previously executed commands
+ rm filename -to delete the file
+* cd -to go home directory
 
 ## Networking
 
