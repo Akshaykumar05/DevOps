@@ -36,7 +36,8 @@ The development team that develops the plan, designs and builds the system from 
  rm filename -to delete the file
 * cd -to go home directory
 
-## Networking
+##  Linux Bash and Networking fundamentals
+* For more in [detail](https://learntocloud.guide/docs/phase1/)
 
 ## Version Control System
 So when you work in teams, most likely there will be some kind of version control system. It could be github, bit-bucket or gitlab. So they all work with git, which is why you need to have an understanding of it. With my personal experience, I had to learn how branching worked, how you create a pull request and what kind of git workflow the team followed. So understanding the basics of git is necessary.
@@ -56,6 +57,10 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 | :------------------------------------------------------------------ | :----------------------------------------------------------------------------------------- |
 | [Kunal Kushwaha - Complete Git and GitHub Tutorial](https://youtu.be/apGV9Kg7ics)|  This tutorial will help you with using Git & GitHub for your personal projects.
 | [Apoorv Goyal - Git and GitHub Materclass](https://youtu.be/LQ2LTPHeTts)| This  tutorial will focuses on Introduction to Git for  absolute beginners with no prior coding experience.
+
+## Cloud Service: AWS/Azure/GCP (start with any one cloud provider)
+* For cloud I have done Microsoft Azure Fundamentals (az-900) certificate.
+* I have written a blog about how I did free with all resorces, you can [read](https://akshaykumar05.hashnode.dev/microsoft-azure-fundamentals-az-900-exam) the blog here.
 
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
