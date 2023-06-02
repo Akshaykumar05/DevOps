@@ -36,7 +36,17 @@ The development team that develops the plan, designs and builds the system from 
  rm filename -to delete the file
 * cd -to go home directory
 
-##  Linux Bash and Networking fundamentals
+## Important topics to cover in Networking (Basics)
+1. How system communicate.
+2. LAN/WAN
+3. What is switch, router, ISP(Internate Service Provider)
+4. IP Address and types 
+5. OSI Model
+6. Basic Subnetting
+7. DNS Basics (important)
+8. Switching and routing
+
+###  Linux Bash and Networking fundamentals
 * For more in [detail](https://learntocloud.guide/docs/phase1/)
 
 ## Version Control System
