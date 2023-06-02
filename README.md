@@ -44,7 +44,7 @@ The development team that develops the plan, designs and builds the system from 
 2. LAN/WAN
 3. What is switch, router, ISP(Internate Service Provider)
 4. IP Address and types 
-5. OSI Model
+5. OSI Model (7 layers)
 6. Basic Subnetting
 7. DNS Basics (important)
 8. Switching and routing
