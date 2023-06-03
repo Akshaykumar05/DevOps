@@ -40,11 +40,12 @@ The development team that develops the plan, designs and builds the system from 
 * cd -to go home directory
 
 ## Important topics to cover in Networking (Basics)
+1. OSI Model (7 layers)
 1. How system communicate.
 2. LAN/WAN
 3. What is switch, router, ISP(Internate Service Provider)
 4. IP Address and types 
-5. OSI Model (7 layers)
+
 6. Basic Subnetting
 7. DNS Basics (important)
 8. Switching and routing
