@@ -76,6 +76,8 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * I have written a blog about how I did free with all resorces, you can [read](https://akshaykumar05.hashnode.dev/microsoft-azure-fundamentals-az-900-exam) the blog here.
 * You can also visit my [Cloud Computing Repo](https://github.com/Akshaykumar05/Cloud-Computing) where I have documented some cloud related stuff.
 
+## Docker
+
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
