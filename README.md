@@ -17,7 +17,7 @@ The development team that develops the plan, designs and builds the system from 
 * Python/Bash
 * Docker
 * Kubernetes
-* CI/CD pipeline
+* CI/CD
 
 ## Linux
 ### Some Important Commands:
