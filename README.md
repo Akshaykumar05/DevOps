@@ -77,6 +77,14 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * You can also visit my [Cloud Computing Repo](https://github.com/Akshaykumar05/Cloud-Computing) where I have documented some cloud related stuff.
 
 ## Docker
+### Advantages of Docker
+* No pre-allocation of RAM.
+* CI efficiency- Docker enables you to build a container image and use that same image across every steps of the deployment process.
+* Less cost.
+* It is light in weight.
+* It can run on physical h/w and virtual h/w or on Cloud.
+* You can re-use the image.
+* It took very less time to create container.
 
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
