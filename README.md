@@ -86,6 +86,13 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * You can re-use the image.
 * It took very less time to create container.
 
+### Disadvantages of Docker
+* Docker is not a good solution which requires a rich GUI (Graphics User Inerface)
+* Difficult to manage large amount of container.
+* Docker does not provide cross-platform compatibility means if an application is designed to run in a docker container on windows, then it can't run on Linux or vice-versa.
+* Docker is suitable when the development OS and the testing OS are same.
+* No solution for data recovery and back up.
+
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
