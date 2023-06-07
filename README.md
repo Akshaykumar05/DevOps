@@ -93,6 +93,19 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Docker is suitable when the development OS and the testing OS are same.
 * No solution for data recovery and back up.
 
+### Docker Components
+[](https://res.cloudinary.com/practicaldev/image/fetch/s--Jne8jX-C--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/aojpt8fs65jv79iqg4g2.png)
+#### Docker Daemen
+* Docker Daemen runs on the host O.S.
+* It is responsible for running container to manage Docker services.
+* Docker Daemon can communicate with other Daemon.
+
+#### Docker Client
+* Docker user can interact with Docker Daemen through a client (CLI)
+* Docker client uses commant and rest API to communicate with the Docker Daemen.
+* When a client run any server command on the Docker client 'terminal' the client terminal send these Docker commands to the docker daemen.
+* It is possible for docker client to communicate more then one daemen.
+
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
