@@ -106,6 +106,12 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * When a client run any server command on the Docker client 'terminal' the client terminal send these Docker commands to the docker daemen.
 * It is possible for docker client to communicate more then one daemen.
 
+### Docker Hub/Registry
+* Docker registry manages and stored the docker images.
+* There are two types of registries in docker
+1. Public Registry- this is also called as docker hub.
+2. Private Registry- It is used to share the images within the enterprices.
+
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
