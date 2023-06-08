@@ -112,6 +112,20 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 1. Public Registry- this is also called as docker hub.
 2. Private Registry- It is used to share the images within the enterprices.
 
+### Docker Images
+* Docker images are th read only binary templates used to create docker Containers.
+* Or it is a single file with all the dependencies and configuration required to run a programe or Container.
+**Ways to create an image**
+1. Take image from docker hub.
+2. Create image from docker file.
+3. Create image from existing docker containers.
+
+### Docker Container
+* Container holds the entire packages that is need to run an application.
+* Or in other words we can say that the image is a template and a container is a copy of that template.
+* Container is like a virtual machine.
+* Images becomes container when they run on docker engine.
+
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
