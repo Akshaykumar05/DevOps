@@ -126,6 +126,8 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Container is like a virtual machine.
 * Images becomes container when they run on docker engine.
 
+### Docker Commands
+
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
