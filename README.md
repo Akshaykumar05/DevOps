@@ -126,6 +126,9 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Container is like a virtual machine.
 * Images becomes container when they run on docker engine.
 
+### Docker Image creation
+
+
 ### Docker Commands
 
 ## Kubernetes
