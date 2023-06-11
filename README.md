@@ -127,7 +127,7 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Images becomes container when they run on docker engine.
 
 ### Docker Image creation
-
+* Docker images are templates used to create docker containers.
 
 ### Docker Commands
 
