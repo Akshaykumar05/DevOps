@@ -133,6 +133,16 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 ### Docker Commands
 ### Dockerfile:
 * It is a text file with instructions to build image **automation of Docker image creation**.
+### Some interview questions related to Docker
+1. What are Images?
+* Docker images are templates used to ctreate Docker containers.
+2. Where are images stored.
+* Registries(e.i. docker hub)
+* Can be stored locally or remotely.
+3. Other points.
+* Docker can build images automatically by reading the instructions from a Dockerfile.
+* Containers are running instances of Docker images.
+* A single image can be used to create multiple containers.
 
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
