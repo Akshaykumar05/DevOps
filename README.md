@@ -131,6 +131,8 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Container is a running instance of image.
 
 ### Docker Commands
+### Dockerfile:
+* It is a text file with instructions to build image **automation of Docker image creation**.
 
 ## Kubernetes
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
