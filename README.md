@@ -18,7 +18,8 @@ The development team that develops the plan, designs and builds the system from 
 * Docker
 * Kubernetes
 * CI/CD
-
+* Microservices
+  
 ## Linux
 ### Some Important Commands:
 * whoami - To check current user
