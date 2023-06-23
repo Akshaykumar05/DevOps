@@ -78,6 +78,7 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * You can also visit my [Cloud Computing Repo](https://github.com/Akshaykumar05/Cloud-Computing) where I have documented some cloud related stuff.
   
 ### Microservices
+![](https://raw.githubusercontent.com/paulc4/microservices-demo/master/shopping-system.jpg)
 ## Docker
 ### Advantages of Docker
 * No pre-allocation of RAM.
