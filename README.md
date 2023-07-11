@@ -19,7 +19,7 @@ The development team that develops the plan, designs and builds the system from 
 * CI/CD Pipeline
 * Infrastructure provisioning- (Tool- Terraform)
 * Configuration Management.(Tool- Ansible/Chef/Puppet)
-* Microservices
+* Microservices & 3-Tier structure
   
 ## Linux
 ### Some Important Commands:
