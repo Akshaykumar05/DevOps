@@ -307,6 +307,12 @@ These 3 coponents collectively consist "node"
 * Kubefed- Federated
 
 ## CI/CD
+* CICD is Continuous Integration and Continuous Deployment.
+* CICD is a method to frequently deliver apps to customer by introducing Automation into the stages of app development.
+* App development includes the stages like Test, Build and Deploy, which can be automated by CICD pipeline.
+* Using CICD code from developer laptop to the production can be tested and deployed as it is pushed in repository like GitHub and Gitlab.
+* This makes deployment faster and  with better quality.
+* Tools used for this process are: **Jenkins, Gitlab, circleci**
 
 ### JENKINS
 * Jenkins is an Open-Source project written in **Java** that runs on windows, MacOS and other Unix-Lite Operating systems. It is free, Community supported and might be your frst choice tool for CI.
