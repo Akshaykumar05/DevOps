@@ -11,14 +11,14 @@ The development team that develops the plan, designs and builds the system from 
 * Linux
 * Networking
 * Version Control System (Git and GitHub)
-* Cloud Service: AWS/Azure/GCP (start with any one cloud provider)
-* Infrastructure as a Code (IaaC) 
-* Rrogramming language- Python/Bash
+* Cloud Service: AWS/Azure/GCP (start with any one cloud provider) 
+* Scripting language- Python/Bash/Go (start with any one)
 * Container- Docker
 * Container Orchestration- Kubernetes
-* CI/CD Pipeline
-* Infrastructure provisioning- (Tool- Terraform)
-* Configuration Management.(Tool- Ansible/Chef/Puppet)
+* CI/CD Pipeline: (Tool- Jenkins)
+* Infrastructure as a Code(IaaC): (Tool- Terraform)
+* Configuration Management: (Tool- Ansible/Chef/Puppet)
+* Monitoring: (Tool- Grafana/Promethrus)
 * Microservices & 3-Tier structure
   
 ## Linux
