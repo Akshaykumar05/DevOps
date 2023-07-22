@@ -314,7 +314,7 @@ These 3 coponents collectively consist "node"
 * This makes deployment faster and  with better quality.
 * Tools used for this process are: **Jenkins, Gitlab, circleci**
 
-### JENKINS
+### CICD Tool: JENKINS
 * Jenkins is an Open-Source project written in **Java** that runs on windows, MacOS and other Unix-Lite Operating systems. It is free, Community supported and might be your frst choice tool for CI.
 * Jenkins automate the entire Software Development Life Cycle (SDLC)
 * Jenkins was originally developed by Sun Microsystem in 2004 under the name of hudson.
