@@ -307,12 +307,14 @@ These 3 coponents collectively consist "node"
 * Kubefed- Federated
 
 ## CI/CD
+![](https://lh4.googleusercontent.com/imCzzpjr1gFWJ-9H8LktYZzl60q8J0nM6xdjhzyCIxiH1CikYnkbt9jlS-_K63jrJX_xbmGIjYCKc_H1VcqMG_trlTW5aztJUDI6VvaNg7EDuUiXKJBwISGhM7a6g3ofkgIcxC5gU-m9k4oUXvrpr6ahDdeTFW2wmd3R1sjHzE0KGsqSCe6pmGp2lUFIww)
 * CICD is Continuous Integration and Continuous Deployment.
 * CICD is a method to frequently deliver apps to customer by introducing Automation into the stages of app development.
 * App development includes the stages like Test, Build and Deploy, which can be automated by CICD pipeline.
 * Using CICD code from developer laptop to the production can be tested and deployed as it is pushed in repository like GitHub and Gitlab.
 * This makes deployment faster and  with better quality.
 * Tools used for this process are: **Jenkins, Gitlab, circleci**
+  ![](https://community.dataminer.services/wp-content/uploads/2021/09/even-beta-version-connector.png)
 
 ### CICD Tool: JENKINS
 * Jenkins is an Open-Source project written in **Java** that runs on windows, MacOS and other Unix-Lite Operating systems. It is free, Community supported and might be your frst choice tool for CI.
