@@ -340,4 +340,16 @@ These 3 coponents collectively consist "node"
 * Jenkins is not just a tool. It is a framework. i.e. you can do whatever you want all you need is plug-ins.
 * We can attach slaves (nodes) to jenkins master. It instruct others (slaves) to do job. If slaves are not available, jenkins itself  does the job.
 * Jenkins also bahave as Crone Server Replacement. i.e. Can do scheduled task.
-* It can create labels. 
+* It can create labels.
+
+### Configuration Management Tool- Ansible
+![](https://repository-images.githubusercontent.com/354115412/2b1b69fc-12f3-4879-925c-d6eaa1c10a3b)
+* Ansible is an open-source IT Configuration Management, Deployment and Orchestration tool. It aims to provide large productivity gains to a wide variety of automation challenges.
+#### Ansible History
+* Michael Dehaan developed Ansible and then Ansible project begin in february 2012.
+* Redhat acquired the ansible tool in 2015.
+* Ansible is available for RHET, Debian, CentOS, Oracle Linux.
+* Can use this tool whether your Servers are in on-premises or in the Cloud.
+* It turns your code into infrastructure. i.e. your computing environment has some of the same attribute as your application.
+
+
