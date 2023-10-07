@@ -23,23 +23,23 @@ The development team that develops the plan, designs and builds the system from 
   
 ## Linux
 ### Some Important Commands:
-* whoami - To check current user
-* touchfile_name.txt - create file
-* pwd - to check current workng directory
-* mkdir foldername - to create a directory (folder)
-* ls - to list content in current directory
-* cd dirname - to change directory
-* cd.. - to move one directory back
+* whoami :To check current user
+* touchfile_name.txt :create file
+* pwd :to check current workng directory
+* mkdir foldername :to create a directory (folder)
+* ls :to list content in current directory
+* cd dirname :to change directory
+* cd.. :to move one directory back
 * mv src_path destination_path
-* cat filename - to view contents of file.
-* clear - to clear terminal.
-* echo "your text" - to print something.
-* ls -la -list contents of directory with file details.
-* nano file_name -to write something in a file 
+* cat filename :to view contents of file.
+* clear :to clear terminal.
+* echo "your text" :to print something.
+* ls -la :list contents of directory with file details.
+* nano file_name :to write something in a file 
 (To exit nano: ctrl+ × > press y if want to save or press n for no > press enter)
-* history -to see all your previously executed commands
- rm filename -to delete the file
-* cd -to go home directory
+* history :to see all your previously executed commands
+* rm filename :to delete the file
+* cd :to go home directory
 
 ## Important topics to cover in Networking (Basics)
 1. OSI Model (7 layers)
