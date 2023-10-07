@@ -41,6 +41,11 @@ The development team that develops the plan, designs and builds the system from 
 * rm filename :to delete the file
 * cd :to go home directory
 
+  #### The touch command is a standard command used in the UNIX/Linux operating system which is used to create, change and modify the timestamps of a file. Basically, there are two different commands to create a file in the Linux system which are as follows:
+
+  #### cat command: It is used to create the file with content.
+  #### touch command: It is used to create a file without any content. The file created using the touch command is empty. This command can be used when the user doesn’t have data to store at the time of file creation.
+
 ## Important topics to cover in Networking (Basics)
 1. OSI Model (7 layers)
 2. How system communicate.
