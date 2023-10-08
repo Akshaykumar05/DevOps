@@ -13,7 +13,7 @@ The development team that develops the plan, designs and builds the system from 
 * Version Control System (Git and GitHub)
 * Cloud Service: AWS/Azure/GCP (start with any one cloud provider) 
 * Scripting language- Python/Bash/Go (start with any one)
-* Container- Docker
+* Container- Docker/Podman (as industry required)
 * Container Orchestration- Kubernetes
 * CI/CD Pipeline: (Tool- Jenkins)
 * Infrastructure as a Code(IaaC): (Tool- Terraform)
