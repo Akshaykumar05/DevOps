@@ -22,6 +22,8 @@ The development team that develops the plan, designs and builds the system from 
 * Microservices & 3-Tier structure
   
 ## Linux
+### Why Linux is importing to learn for DevOps
+* Linux's open-source nature allows DevOps engineers to access and modify the source code, enabling customization and optimization to meet specific requirements. This flexibility is crucial for tailoring the operating system to fit the needs of different software development and deployment workflows.
 ### Some Important Commands:
 * whoami :To check current user
 * touch file_name.txt :create file
