@@ -26,7 +26,7 @@ The development team that develops the plan, designs and builds the system from 
 * Linux's open-source nature allows DevOps engineers to access and modify the source code, enabling customization and optimization to meet specific requirements. This flexibility is crucial for tailoring the operating system to fit the needs of different software development and deployment workflows.
 ### Some Important Commands:
 * whoami :To check current user
-* touch file_name.txt :create file
+* touch file_name.txt :It is used to create a file without any content.
 * pwd :to check current workng directory
 * mkdir foldername :to create a directory (folder)
 * ls :to list content in current directory
