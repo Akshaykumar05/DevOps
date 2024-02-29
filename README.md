@@ -88,9 +88,13 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
   
 ### Microservices
 ![](https://raw.githubusercontent.com/paulc4/microservices-demo/master/shopping-system.jpg)
+
 ## Docker
 * **What is Container**
 * A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+  
+![image](https://github.com/Akshaykumar05/DevOps/assets/114390890/5961bcb3-e329-4fe5-94eb-f8c12069a2ff)
+
   
 ### Advantages of Docker
 * No pre-allocation of RAM.
