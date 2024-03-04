@@ -164,6 +164,8 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * A single image can be used to create multiple containers.
 
 ## Kubernetes
+![image](https://github.com/Akshaykumar05/DevOps/assets/114390890/4edc454a-af47-4ce9-97cb-4705f09ad548)
+
 * Kubernetes is an open-source **Container Management tool** which automates container deployment, container scaling and load balancing.
 * It schedules, runs and manage isolated containers which are running on virtual/physical/ cloud support.
 * All top cloud providers support Kubernetes.
