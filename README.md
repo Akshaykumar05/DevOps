@@ -367,5 +367,6 @@ These 3 coponents collectively consist "node"
 * Ansible is available for RHET, Debian, CentOS, Oracle Linux.
 * Can use this tool whether your Servers are in on-premises or in the Cloud.
 * It turns your code into infrastructure. i.e. your computing environment has some of the same attribute as your application.
-
+### Monitoring Tool - Graphana
+* DevOps monitoring entails overseeing the entire development process from planning, development, integration and testing, deployment, and operations. It involves a complete and real-time view of the status of applications, services, and infrastructure in the production environment.
 
