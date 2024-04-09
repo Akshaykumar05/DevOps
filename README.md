@@ -374,3 +374,8 @@ These 3 coponents collectively consist "node"
 * DevOps monitoring entails overseeing the entire development process from planning, development, integration and testing, deployment, and operations. It involves a complete and real-time view of the status of applications, services, and infrastructure in the production environment.
 * Grafana is an open-source solution for running data analytics with the help of metrics that give us an insight into the complex infrastructure and massive amount of data that our services deal with, with the help of customizable dashboards.
 
+#### What features does Grafana have?
+1. Visualization
+2. Alerting
+3. Annotations
+4. Open Source
