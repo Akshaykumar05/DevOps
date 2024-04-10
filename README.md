@@ -376,6 +376,8 @@ These 3 coponents collectively consist "node"
 
 #### What features does Grafana have?
 1. Visualization
-2. Alerting
-3. Annotations
-4. Open Source
+   * Grafana possesses a huge variety of visualization options to help you view and understand your data easily. These options are split into “panels” which are then used to build the Grafana dashboard.
+3. Alerting
+   * When monitoring applications, it is essential to be made aware the second something goes wrong or is abnormal. This is vital to keeping your systems healthy and reducing downtime. Grafana has built-in support for a huge number of notification channels, be it email, Slack, PagerDuty, etc., whichever best suits you.
+5. Annotations
+6. Open Source
