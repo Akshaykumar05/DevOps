@@ -368,7 +368,7 @@ These 3 coponents collectively consist "node"
 * Can use this tool whether your Servers are in on-premises or in the Cloud.
 * It turns your code into infrastructure. i.e. your computing environment has some of the same attribute as your application.
   
-### Monitoring Tool - Graphana
+### Monitoring Tool - Graphana & Zabbix
 ![image](https://github.com/Akshaykumar05/DevOps/assets/114390890/0ab115fa-2b29-43ae-b06d-cbb3ad6b1c14)
 
 * DevOps monitoring entails overseeing the entire development process from planning, development, integration and testing, deployment, and operations. It involves a complete and real-time view of the status of applications, services, and infrastructure in the production environment.
@@ -381,3 +381,6 @@ These 3 coponents collectively consist "node"
    * When monitoring applications, it is essential to be made aware the second something goes wrong or is abnormal. This is vital to keeping your systems healthy and reducing downtime. Grafana has built-in support for a huge number of notification channels, be it email, Slack, PagerDuty, etc., whichever best suits you.
 5. Annotations
 6. Open Source
+
+ #### Zabbix
+* Zabbix is an open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics.
