@@ -384,3 +384,4 @@ These 3 coponents collectively consist "node"
 
  #### Zabbix
 * Zabbix is an open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics.
+* Zabbix uses a flexible notification mechanism that allows users to configure e-mail based alerts for virtually any event.
