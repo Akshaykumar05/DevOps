@@ -68,6 +68,7 @@ The development team that develops the plan, designs and builds the system from 
 ![image](https://github.com/Akshaykumar05/DevOps/assets/114390890/9a40b93e-c810-443a-80b3-48ee96ea3834)
 
 * A virtual private network is a mechanism for creating a secure connection between a computing device and a computer network, or between two networks, using an insecure communication medium such as the public Internet.
+* The benefits of a VPN include security, reduced costs for dedicated communication lines, and greater flexibility for remote workers.
 
 ## Version Control System
 So when you work in teams, most likely there will be some kind of version control system. It could be github, bit-bucket or gitlab. So they all work with git, which is why you need to have an understanding of it. With my personal experience, I had to learn how branching worked, how you create a pull request and what kind of git workflow the team followed. So understanding the basics of git is necessary.
