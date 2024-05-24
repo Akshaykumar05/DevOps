@@ -65,6 +65,8 @@ The development team that develops the plan, designs and builds the system from 
 * [OSI Model and its 7 layers](https://www.imperva.com/learn/application-security/osi-model/)
 * [Video to cover networking fundamentals](https://www.youtube.com/watch?v=iSOfkw_YyOU&list=PPSV)
 
+### How system communicate.
+ * [Reference blog](https://www.freecodecamp.org/news/computer-networking-how-applications-talk-over-the-internet/)
 ### VPN (Virtual Private Network)
 ![image](https://github.com/Akshaykumar05/DevOps/assets/114390890/9a40b93e-c810-443a-80b3-48ee96ea3834)
 
