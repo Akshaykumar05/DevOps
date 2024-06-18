@@ -20,7 +20,9 @@ The development team that develops the plan, designs and builds the system from 
 * Configuration Management: (Tool- Ansible/Chef/Puppet)
 * Monitoring: (Tool- Grafana/Promethrus)
 * Microservices & 3-Tier structure
-  
+
+  ### Prequisite
+  * [Basics](https://www.youtube.com/watch?v=qzDxDYzWSEE&list=PLYEK_dHOjwtOAmCLpLTLAww6GEXR6Bdbh&t=74s)
 ## Linux
 ### Why Linux is importing to learn for DevOps
 * Linux's open-source nature allows DevOps engineers to access and modify the source code, enabling customization and optimization to meet specific requirements. This flexibility is crucial for tailoring the operating system to fit the needs of different software development and deployment workflows.
