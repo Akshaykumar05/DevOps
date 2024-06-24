@@ -8,7 +8,7 @@ The two groups, operations and development are converged into a single group whe
 The development team that develops the plan, designs and builds the system from scratch and the operation team for testing and implementation of whatever is developed. The operations team gave the development team feedback on any bugs that needed fixing and any rework required. Invariably, the development team would be idle awaiting feedback from the operations team. This undoubtedly extended timelines and delayed the entire software development cycle. There would be instances where the development team moves on to the next project while the operations team continues to provide feedback for the previous code. This meant weeks or even months for the project to be closed and final code to be developed. Now, what if the two departments came together and worked in collaboration with each other?
 
 ## To become a DevOps Engineer, you need to know about:
-* Linux
+* OS: Linux
 * Networking
 * Version Control System (Git and GitHub)
 * Cloud Service: AWS/Azure/GCP (start with any one cloud provider) 
@@ -23,7 +23,7 @@ The development team that develops the plan, designs and builds the system from 
 
   ### Prequisite
   * [Basics](https://www.youtube.com/watch?v=qzDxDYzWSEE&list=PLYEK_dHOjwtOAmCLpLTLAww6GEXR6Bdbh&t=74s)
-## Linux
+## Operating System: Linux
 ### Why Linux is importing to learn for DevOps
 * Linux's open-source nature allows DevOps engineers to access and modify the source code, enabling customization and optimization to meet specific requirements. This flexibility is crucial for tailoring the operating system to fit the needs of different software development and deployment workflows.
 ### Some Important Commands:
@@ -49,6 +49,9 @@ The development team that develops the plan, designs and builds the system from 
 
   #### cat command: It is used to create the file with content.
   #### touch command: It is used to create a file without any content. The file created using the touch command is empty. This command can be used when the user doesn’t have data to store at the time of file creation.
+
+### Certification For OS
+* [Rhcsa](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
 
 ## Important topics to cover in Networking (Basics)
 1. OSI Model (7 layers)
