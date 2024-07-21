@@ -91,6 +91,16 @@ Version control is the ability to understand the various changes that happened t
 
 You might ask why Git? Git is a de facto standard. Git is the most broadly adopted tool of its kind. Vast numbers of developers already have Git experience and a significant proportion of college graduates may have experience with Git.
 
+#### Basic Commands
+* git --version
+* git status
+* git init
+* git add
+* git commit
+* git branch
+* git config
+* git merge 
+
 ## Resource:
 
 | Resource                                                            | Notes                                                                                       |
