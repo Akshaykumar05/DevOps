@@ -2,25 +2,24 @@
 ![](https://assets-global.website-files.com/622642781cd7e96ac1f66807/62d0f091fc73b7a5828854b1_022021-Harness-Blogpost-DevOpsGeneric-Header-2400x700-1.png)
 
 ## What is DevOps?
-
-DevOps is a movement and a culture before being a job this is why cultural aspects are very important. DevOps is all about getting your solutions to run efficiently from deployment to updates.
-The two groups, operations and development are converged into a single group where the engineers work across the whole SDLC(Software Development Life Cycle).
-The development team that develops the plan, designs and builds the system from scratch and the operation team for testing and implementation of whatever is developed. The operations team gave the development team feedback on any bugs that needed fixing and any rework required. Invariably, the development team would be idle awaiting feedback from the operations team. This undoubtedly extended timelines and delayed the entire software development cycle. There would be instances where the development team moves on to the next project while the operations team continues to provide feedback for the previous code. This meant weeks or even months for the project to be closed and final code to be developed. Now, what if the two departments came together and worked in collaboration with each other?
+DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and provide continuous delivery with high software quality. It aims to bridge the gap between development and operations teams by promoting better collaboration and communication.
+The two groups, operations and development are converged into a single group where the engineers work across the whole SDLC (Software Development Life Cycle).
+The development team that develops the plan, designs and builds the system from scratch and the operation team for testing and implementation of whatever is developed. The operations team gave the development team feedback on any bugs that needed fixing and any rework required. Invariably, the development team would be idle awaiting feedback from the operations team. This undoubtedly extended timelines and delayed the entire software development cycle. There would be instances where the development team moves on to the next project while the operations team continues to provide feedback for the previous code. This meant weeks or even months for the project to be closed and final code to be developed. Now, what if the two departments came together and worked in collaboration with each other? Here DevOps methodology comes in the picture. DevOps aims to create a more dynamic and adaptable IT environment where changes can be made quickly and reliably, ultimately leading to faster innovation and better alignment with business goals.
 
 ## To become a DevOps Engineer, you need to know about:
-* OS: Linux
+* Operating System (OS): Linux
 * Networking
 * Version Control System (Git and GitHub)
 * Cloud Service: AWS/Azure/GCP (start with any one cloud provider) 
 * Scripting language- Python/Bash/Go (start with any one)
+* CI/CD Pipeline: (Tool- Jenkins)
 * Container- Docker/Podman (as industry required)
 * Container Orchestration- Kubernetes
-* CI/CD Pipeline: (Tool- Jenkins)
 * Infrastructure as a Code(IaaC): (Tool- Terraform)
 * Configuration Management: (Tool- Ansible/Chef/Puppet)
-* Monitoring: (Tool- Grafana/Promethrus)
+* Monitoring: (Tool- Grafana/Promethrus/Zabbix)
 * Microservices & 3-Tier structure
-
+-------------------------------
   ### Prequisite
   * [Basics](https://www.youtube.com/watch?v=qzDxDYzWSEE&list=PLYEK_dHOjwtOAmCLpLTLAww6GEXR6Bdbh&t=74s)
 ## Operating System: Linux
@@ -99,7 +98,9 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * git commit
 * git branch
 * git config
-* git merge 
+* git merge
+  
+![image](https://github.com/user-attachments/assets/81215332-4aa6-4ea9-84c5-08565269f34d)
 
 ## Resource:
 
