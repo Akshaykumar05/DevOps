@@ -248,8 +248,8 @@ You might ask why Git? Git is a de facto standard. Git is the most broadly adopt
 * Pod runs on node, which is controlled by master.
 
 ### Role of Master Node
-Kubernetes cluster contains Containers running or Bare Metal/ VM instances/ Cloud instances/ all mix.
-* K8s designates one or more of these as master and other as workers.
+Kubernetes cluster contains Containers running on Bare Metal/ VM instances/ Cloud instances/ all mix.
+* K8s designates one or more of these as master and all other as workers.
 * The master is now going to run set of K8s processes. These processes will ensure  smooth functioning of Cluster, these process are called "Control Plane"
 * Can be multi-master for high availability
 * Master runs Control Plane to run cluster smoothly
@@ -272,7 +272,7 @@ Kubernetes cluster contains Containers running or Bare Metal/ VM instances/ Clou
 
 #### etcd has following features:
 1. **Fully Replicated**- The entire state is available on every node in the cluster.
-2. **Secure**- Implements aitomatic TLS with optional Client-Certificate authentication.
+2. **Secure**- Implements automatic TLS with optional Client-Certificate authentication.
 3. **Fast**- Benchmarked at 10,000 writes per second
 
 #### 3 Kube-scheduler (action)
