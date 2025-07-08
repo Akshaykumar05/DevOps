@@ -350,6 +350,63 @@ These 3 coponents collectively consist "node"
 * Kubeadm- On premise
 * Kubefed- Federated
 
+#### Labels and Selectors
+* Labels are the mechanism you use to organise Kubernetes Objects.
+* Alabel is a key pair without any predefined meaning that can be attached to the objects.
+* Labels are similar to tags in AWS or git where you use a name to quick reference.
+* So you are free to choose labels as you need it to refer an environment which is used for dev or testing or Production, refer a product group like Department A , department B.
+* Multiple labes\ls can be added to a single object.
+
+  ```
+  vi pods.yml
+  ```
+  ```
+  Kind: Pod
+  apiversion: v1
+  metadata:
+    name: delhipods
+    Labels: 
+       env: developments
+       class: pods
+  spec:
+    Containers:
+      -name: COD
+       image: ubuntu
+       Command: ["bin/bash", "-c", "while true; do echo Hello-Akshay; sleep S;done
+    ```
+    ```
+    kubectl apply -f pods.yml
+    ```
+
+  * Now check labels
+    ```
+    kubectl get pods --show-labels
+    ```
+  * Now, if you want to add a label to an existing pod
+    ```
+    kubectl label pods delhipod myname=akshay
+    ```
+    ```
+    kubectl get pods --show-labels
+    ```
+  * Now, list pods matching a label
+    ```
+    kubectl get pods -l env=development
+    ```
+  * Now, give a list, where 'development' label is not present.
+    ```
+    kubectl get pods -l env!=development
+    ```
+
+  * Now if you want to delete pod using labels
+    ```
+    kubectl delete pod -l env!= development
+    ```
+    ```
+    kubectl get pods
+    ```
+    
+---------------------------------------------------------------------------------------------------    
 ## CI/CD
 ![](https://lh4.googleusercontent.com/imCzzpjr1gFWJ-9H8LktYZzl60q8J0nM6xdjhzyCIxiH1CikYnkbt9jlS-_K63jrJX_xbmGIjYCKc_H1VcqMG_trlTW5aztJUDI6VvaNg7EDuUiXKJBwISGhM7a6g3ofkgIcxC5gU-m9k4oUXvrpr6ahDdeTFW2wmd3R1sjHzE0KGsqSCe6pmGp2lUFIww)
 * CICD is Continuous Integration and Continuous Deployment.
