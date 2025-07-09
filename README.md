@@ -361,18 +361,19 @@ These 3 coponents collectively consist "node"
   vi pods.yml
   ```
   ```
-  Kind: Pod
-  apiversion: v1
+  apiVersion: v1
+  kind: Pod
   metadata:
     name: delhipods
-    Labels: 
-       env: developments
-       class: pods
+    labels:
+     env: developments
+     class: pods
   spec:
-    Containers:
-      -name: COD
-       image: ubuntu
-       Command: ["bin/bash", "-c", "while true; do echo Hello-Akshay; sleep S;done
+   containers:
+   - name: COD
+     image: ubuntu
+     command: ["/bin/bash", "-c", "while true; do echo Hello-Akshay; sleep 5; done"]
+
     ```
     ```
     kubectl apply -f pods.yml
