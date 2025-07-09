@@ -405,7 +405,33 @@ These 3 coponents collectively consist "node"
     ```
     kubectl get pods
     ```
-    
+#### Labels-Selectors
+* Unlike name/UIDs, labels do not provide uniqueness, as in general, we can expect many objects to cary the same label.
+* Once labels are attached to an objects, we would need filters to narrow down and these are called as label selectors.
+* The api currently supports two types of Selectors -
+  - Equality based and
+  - Set based
+* A label selector can be made of multiple requirements which are comma-separated.
+
+* Equilty based: ( =, != )
+   - name: akshay
+   - Class: node
+   - project: development
+
+ * Ser based: (in, notein and exists)
+   - env in (production, dev)
+   - env notin (team1, team2)
+  
+* Kubernetes also support set-based Selectors i.e. match multiple values
+
+  ```
+  kubectl get pods -l 'env in (development, testing)'
+  ```
+  ```
+  kubectl get pods -l 'env notin (development, testing)'
+  ```
+  ```
+  kubectl get pods -l class=pods, myname=akshay
 ---------------------------------------------------------------------------------------------------    
 ## CI/CD
 ![](https://lh4.googleusercontent.com/imCzzpjr1gFWJ-9H8LktYZzl60q8J0nM6xdjhzyCIxiH1CikYnkbt9jlS-_K63jrJX_xbmGIjYCKc_H1VcqMG_trlTW5aztJUDI6VvaNg7EDuUiXKJBwISGhM7a6g3ofkgIcxC5gU-m9k4oUXvrpr6ahDdeTFW2wmd3R1sjHzE0KGsqSCe6pmGp2lUFIww)
